@@ -2,6 +2,12 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+	font-weight: 700;
+	font-size: 34px;
+	text-align: center;
+}
+
 .container {
 	width: 944px;
 	margin: 0 auto;
@@ -81,3 +87,33 @@ body {
 .intro__img {}
 
 .intro__img-mobile {}
+
+/* ==== About ==== */
+.about {
+	background: #F6F6F6;
+	text-align: center;
+	padding: 120px 0 100px;
+}
+
+.about__title {
+	margin-bottom: 30px;
+}
+
+.about__inner {
+	width: 485px;
+	margin: 0 auto;
+}
+
+.about__text {
+	margin-bottom: 40px;
+}
+
+.about__text:nth-child(2) {
+	width: 90%;
+	margin: 0 auto 40px;
+}
+
+.about__text:nth-child(3) {
+	width: 70%;
+	margin: 0 auto;
+}
