@@ -160,3 +160,34 @@ h2 {
 	justify-content: center;
 	gap: 10px;
 }
+
+/* ==== Portfolio ==== */
+.portfolio {
+	padding: 112px 0 100px;
+	text-align: center;
+	background: #F6F6F6;
+}
+
+.portfolio__title {
+	margin-bottom: 50px;
+}
+
+.portfolio__item {
+	margin-bottom: 100px;
+}
+
+.portfolio__item:last-child {
+	margin-bottom: 0;	
+}
+
+.portfolio__img {
+	margin-bottom: 45px;
+	width: 100%;
+}
+
+.portfolio__link {
+	font-size: 18px;
+	line-height: 22px;
+	text-decoration-line: underline;
+	color: #070707;
+}
