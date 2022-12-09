@@ -117,3 +117,46 @@ h2 {
 	width: 70%;
 	margin: 0 auto;
 }
+
+/* ==== Skills ==== */
+.skills {
+	padding: 90px 0 110px;
+}
+
+.skills__title {
+	margin-bottom: 70px;
+}
+
+.skills__text {
+	text-align: center;
+	margin-bottom: 87px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	text-align: center;
+	flex-basis: 25%;
+}
+
+.card__img {
+	margin-bottom: 26px;
+}
+
+.card__title {
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	font-weight: bold;
+	color: #828282;
+	margin-bottom: 40px;
+}
+
+.stars {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
