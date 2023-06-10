@@ -100,14 +100,9 @@ h2 {
 }
 
 .lang-switch-outer {
-	position: relative;
-}
-
-.lang-switch-inner {
-	transform: rotate(-90deg);
-	position: absolute;
-	bottom: 0;
-	right: 0;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	vertical-align: top;
 }
 
 .lang-switch {
@@ -157,6 +152,15 @@ h2 {
 
 	.lang-switch-outer--burger {
 		display: block;
+		position: absolute;
+		bottom: 30px;
+		right: 28px;
+		transform: rotate(0);
+		font-size: 34px;
+	}
+	
+	.lang-switch-outer--burger .lang-switch {
+		font-size: 34px;
 	}
 }
 
