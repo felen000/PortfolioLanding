@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
+	<script src="js/index.js" defer></script>
 </head>
 
 <body>
@@ -56,8 +57,41 @@
 						</div>
 					</div>
 				</div>
-				<img src="assets/intro/intro.jpg" alt="Фото" class="intro__img">
-				<img src="assets/intro/intro.jpg" alt="Фото" class="intro__img-mobile" style="display: none;">
+				<img class="intro__img" src="assets/intro/intro.jpg" alt="Фото" >
+				<img src="assets/intro/intro-mobile.jpg" alt="Фото" class="intro__img-mobile">
+
+				<div class="burger-btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="burger-menu">
+					<nav class="nav">
+						<ul class="nav-list nav-list--burger">
+							<li class="nav-item">
+								<a href="#home" class="nav-link nav-link--burger">Home</a>
+							</li>
+							<li class="nav-item">
+								<a href="#about" class="nav-link nav-link--burger">About me</a>
+							</li>
+							<li class="nav-item">
+								<a href="#skills" class="nav-link nav-link--burger">Skills</a>
+							</li>
+							<li class="nav-item">
+								<a href="#portfolio" class="nav-link nav-link--burger">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a href="#contacts" class="nav-link nav-link--burger">Contacts</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="lang-switch-outer lang-switch-outer--burger">
+						<span class="hide">Text</span>
+						<div class="lang-switch-inner">
+							<button class="lang-switch">RU</button>|<button class="lang-switch active">ENG</button>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<!-- ======== About ======== -->
